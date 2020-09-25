@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- componente menu -->
+    <!-- "@drawable/ic_edit" - icone criado atraves do drawable do android com um icone escolhido  -->
+    <!-- showAsAction - pra fazer o icone aparecer em cima  (sem o icone o texto editar aparecia em cima) com o icone ele sobrepoe o texto EDITAR -->
+
+    <item
+        android:id="@+id/menu_edit"
+        android:icon="@drawable/ic_edit"
+        android:title="Editar"
+        app:showAsAction="always" />
+
+</menu>
